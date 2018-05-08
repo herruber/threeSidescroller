@@ -94,10 +94,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="clouds.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="scripts\Bjornkraft.js" />
+    <Content Include="scripts\Character.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="scripts\jquery-3.3.1.min.map" />
+    <Content Include="scripts\Physics.js" />
+    <Content Include="shader.glsl" />
+    <Content Include="Shaders\postProcess_frag.glsl" />
+    <Content Include="Shaders\postProcess_vert.glsl" />
+    <Content Include="Shaders\standard_frag.glsl" />
+    <Content Include="Shaders\standard_vert.glsl" />
+    <Content Include="Shaders\postProcess_frag - Copy.glsl" />
+    <Content Include="Shaders\standard_creature_frag.glsl" />
+    <Content Include="Shaders\standard_creature_vert.glsl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,8 +120,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <None Include="scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="scripts\jquery-3.3.1.js" />
+    <Content Include="scripts\jquery-3.3.1.min.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.js" />
+    <Content Include="scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="scripts\Noise.js" />
+    <Content Include="scripts\OrbitControls.js" />
+    <Content Include="scripts\PhotonMapping.js" />
+    <Content Include="scripts\RayWorker.js" />
+    <Content Include="scripts\three.js" />
+    <None Include="scripts\_References.js" />
+    <Content Include="scripts\WebGL.js" />
+    <Content Include="Style.css" />
+    <Content Include="test.txt" />
+    <Content Include="testnoise.jpg" />
+    <Content Include="Textures\dirt.jpg" />
+    <Content Include="Textures\fadeBottom.jpg" />
+    <Content Include="Textures\fadeLeft.jpg" />
+    <Content Include="Textures\fadeRight.jpg" />
+    <Content Include="Textures\fadeTop.jpg" />
+    <Content Include="voxel_normal.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

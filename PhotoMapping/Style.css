@@ -1,0 +1,27 @@
+﻿html{
+    width:100%;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+}
+
+#display-photons{
+    width:20%;
+    height:20%;
+
+}
+
+#display-scene{
+    width:80%;
+    height:80%;
+}
+
+#ms{
+    padding:4px;
+    position:absolute;
+    background-color:white;
+    border-radius:2px;
+}
